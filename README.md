@@ -1,4 +1,11 @@
 # JQuery-Js
+<p align="center">
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
+
+<br>
+<br>
+<br>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Daviafonso88/JQuery-js)
 ![GitHub language count](https://img.shields.io/github/languages/count/Daviafonso88/JQuery-js)
