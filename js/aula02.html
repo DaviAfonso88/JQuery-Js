@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Aula01</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('a').css("color", "blue")
+            .click (function(){
+                $("#titulo")
+                .css("color", "#0000ff")
+                .text("Curso e jQuery")
+                .hide()
+                .fadeToggle();
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1 id="titulo">Hello World!</h1>
+    <a href="#">Executar JavaScript</a> <br>
+    <a href="#">Executar Novamente</a> <br>
+    <a href="#">Executar Ultima Vez</a>
+
+
+
+
+
+
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
