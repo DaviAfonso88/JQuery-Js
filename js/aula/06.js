@@ -8,4 +8,5 @@ $(document).ready(function(){
     $("td:has(strong)").css("background-color", "green");
 
     
+    
 });
