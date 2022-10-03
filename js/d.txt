@@ -11,3 +11,21 @@ or push an existing repository from the command line
 git remote add origin https://github.com/DaviAfonso88/sdsd.git
 git branch -M main
 git push -u origin main
+
+
+  input <input/>
+
+   text <br> <input type="text">
+   password <br> <input type="password" name="Password" id=""> 
+   radio <br> <input type="radio" name="" id=""> 
+   checkbox <br> <input type="checkbox" name="checkbox" id=""> 
+   submit <br> <input type="submit" value="gravar">
+   image <br> <input type="image" src="" alt="">
+   reset <br> <input type="reset" value="reset">
+   button <br> <input type="button" value="ok">
+   file <br> <input type="file" name="file" id="">
+   hidden <br> <input type="hidden" name="s">
+  
+ </body>
+
+</html>
