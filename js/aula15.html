@@ -1,0 +1,66 @@
+<html>
+    <title>Jquery Aula15</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script type="text/javascript" src="aula/15.js"></script>
+    
+    <style>
+        textarea{
+            text-shadow: 10px;
+        }
+        #msg{
+           border-style: dotted;
+           background-color: #CCC;
+            font-size: 20px;
+            font: black Arial bold; 
+            max-width: 270px;
+            height: 120px;
+        }
+        fieldset{
+            background-color: #CCC;
+            width: 250px; 
+        }
+        textarea{
+            width: 200px; 
+            height: 100px;
+            resize: none; 
+        }
+    </style>
+    
+    </head>
+    <body>
+    
+        <div id="msg"></div>
+    
+        <form action="Evento_Teclado.html">
+            <fieldset>
+                <legend> Formulário</legend>
+    
+                <div>
+                    <label for="Texto">Text:</label>
+                    <input type="text">
+                </div>
+                <div>
+                    Select:
+                    <select id="Pais">
+                        <option value="1">Brasil</option>
+                        <option value="2">China</option>
+                        <option value="3">EUA</option>
+                        <option value="4">Japão</option>
+                        <option value="5">Argentina</option>
+                        <option value="5">Peru</option>
+                    </select>
+                </div>
+    
+                <textarea cols="50" rows="20" placeholder="Escreva aqui..."></textarea>
+    
+            </fieldset>
+            <input type="submit" value="submit">
+        </form>
+    
+    
+
+    
+  
+ </body>
+
+</html>
