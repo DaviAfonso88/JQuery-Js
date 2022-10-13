@@ -27,9 +27,9 @@
 
 <div align=rigth>
 
-  <img align="rigth" alt="DaviAfonso88-php" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg">
-  <img align="rigth" alt="DaviAfonso88-mysql" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
-  <img align="rigth" alt="DaviAfonso88-mysql" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
+  <img align="rigth" alt="DaviAfonso88-jquery" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg">
+  <img align="rigth" alt="DaviAfonso88-javascript" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+  <img align="rigth" alt="DaviAfonso88-vscode" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
 
 <br>
 <br>
