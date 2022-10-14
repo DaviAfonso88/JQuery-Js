@@ -73,3 +73,37 @@ $(function(){
     $("#radios").buttonset();
 
 })
+
+
+/* UI5 */
+
+
+$(function(){
+    $("a").button({
+        icons: {primary: "ui-icon-lightbulb"},
+        text: false
+    });
+
+    $("#checks").buttonset();
+    $("#radios").buttonset();
+
+})
+
+
+/* UI6 */
+
+
+$(function(){
+    $("#dialog").dialog({
+        heigth:140,
+        modal: true,
+        buttons: {
+            "deletar todos":function(){
+                $(this).dialog("close")
+            },
+            cancel: function(){
+                $(this).dialog("close");
+            }
+        }
+    });
+});

@@ -1,0 +1,88 @@
+<html>
+ <title>Jquery AulaUI3</title>
+ <link rel="stylesheet" type="text/css" href="jquery-ui-1.13.2.custom/jquery-ui.theme.min.css">
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+ <script type="text/javascript" src="jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+ <script type="text/javascript">
+    $(function(){
+        $("#dialog").dialog({
+            heigth:140,
+            modal: true,
+            buttons: {
+                "deletar todos":function(){
+                    $(this).dialog("close")
+                },
+                cancel: function(){
+                    $(this).dialog("close");
+                }
+            }
+        });
+    });
+    
+
+    
+
+       
+
+
+
+    
+
+
+
+
+ </script>
+ </head>
+ <body>
+
+    <div class="demo">
+
+        <div id="dialog" title="Dialog Modal">
+            <p>Adicionar uma janela modal faz com que a caxa de dialogo <br>
+                seja bem mais enfática por que ela salta ao conteúdo da 
+                página!
+            </p>
+        </div>
+
+        <div>
+            Sed vel id libero <a href="#">return convallis.</a> <br>Donec 
+            aliquet leo vel magna. Phasellus rhoncus faucbus ante. <br>
+            Etiam bibendum, enim faucibus aliquet rhoncus, <br>
+            arcu felis ultricies neque, sit amet auctor elit eros a lectus. 
+        </div>
+
+        <br>
+        <input value="text input">
+        <br>
+        <input type="checkbox">checkbox
+        <br>
+        <input type="radio">radio
+        <br>
+        <select>
+            <option>Select</option>
+            <option>Brasil</option>
+            <option>EUA</option>
+        </select>
+        <br>
+
+        <textarea cols="30" rows="10">textarea</textarea>
+        <br>
+        <div>
+            A caixa de diálogo modal proibe que o usuário consiga <br>
+            interagir com o restante da página modal até a modal ser fechada. <br>
+            A modal dialog prevents user from interacting with the rest of the page until it is closed. 
+        </div>
+    </div>
+
+
+   
+ 
+
+
+    
+
+
+
+
+</body>
+</html>
