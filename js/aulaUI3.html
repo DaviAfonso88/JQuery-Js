@@ -4,24 +4,33 @@
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
  <script type="text/javascript" src="jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
  <script type="text/javascript">
-    $(function(){
-        var dados = [
-        "ActionScript",
-        "AppleScript",
-        "Asp",
-        "BASIC",
-        "C",
-        "C++",
-        "Clojure",
-        "Cobol",
-        "PHP",
-        "Python"
-        ];
 
-        $("#tags").autocomplete({
-            source: dados
-        });
+
+    $("#city").autocomplete({
+            source: function(request, responde){
+                $.ajax({
+                    url:"http://ws.geonames.org/searchJSON",
+                    dataType: "jsonp",
+                    data: {
+                        featureClass: "P",
+                        style: "full",
+                        maxRows: 12,
+                        name_startsWith: request.term
+                    },
+                    success: function(data){
+                        responde($.map(data.geonames, function(item){
+                            return {
+                                label: item.name + (item.adminName1 ? "," +item.adminName1 : "") + ", " + item.countryName,
+                                value: item.name
+                            }
+                        }));
+
+                    }
+                })
+            }
+            
     });
+    
 
 
 

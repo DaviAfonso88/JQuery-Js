@@ -1,0 +1,57 @@
+<html>
+ <title>Jquery AulaUI4</title>
+ <link rel="stylesheet" type="text/css" href="jquery-ui-1.13.2.custom/jquery-ui.theme.css">
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+ <script type="text/javascript" src="jquery-ui-1.13.2.custom/jquery-ui.js"></script>
+ <script type="text/javascript">
+    $(function(){
+        $("a").button({
+            icons: {primary: "ui-icon-lightbulb"},
+            text: false
+        });
+
+        $("#checks").buttonset();
+        $("#radios").buttonset();
+
+    })
+
+
+    
+
+
+
+
+ </script>
+ </head>
+ <body>
+    
+      <a href="#">Botao A</a> 
+      
+
+
+      <div id="checks">
+            <br>
+           <input type="checkbox" id="check1" /><label for="check1">X</label>
+           <input type="checkbox" id="check2" /><label for="check2">T</label>
+           <input type="checkbox" id="check3" /><label for="check3">I</label>
+      </div>
+
+      <div id="radios">
+          <br>
+          <input type="radio" id="radio1" name="radio1" /><label for="radio1">Homem</label>
+          <input type="radio" id="radio2" name="radio2" /><label for="radio2">Mulher</label>
+
+      </div>
+    
+
+   
+ 
+
+
+    
+
+
+
+
+</body>
+</html>
