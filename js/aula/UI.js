@@ -172,3 +172,52 @@ $(function () {
 });
 
 
+/* UI12 */
+
+
+    $(function () {
+        $("#slider").slider({
+            min: 10,
+            max: 100,
+            value: 60,
+            slide: function(event, ui){
+                  $("#valor").val(ui.value)
+            }
+        }); 
+        
+
+
+    }); 
+
+    $(function () {
+        $("#slider").slider({
+            min: 1,
+            max: 100,
+            value: 50,
+            orientation: "vertical",
+            slide: function(event, ui){
+                  $("#valor").val(ui.value)
+            }
+        });
+        
+
+
+    });
+
+
+/* UI13 */
+
+
+    $(function(){
+        $("#selectable").selectable();
+    })
+
+
+    /* UI14 */
+
+
+    $(function(){
+        $("#sortable").sortable();
+    })
+
+
