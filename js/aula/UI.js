@@ -79,14 +79,15 @@ $(function(){
 
 
 $(function(){
-    $("a").button({
-        icons: {primary: "ui-icon-lightbulb"},
-        text: false
+    $("#date").datepicker({
+        showOn:"button",
+      
     });
 
-    $("#checks").buttonset();
-    $("#radios").buttonset();
-
+    $("#date").datepicker({
+        showOn:"button",
+      
+    });
 })
 
 
@@ -107,3 +108,67 @@ $(function(){
         }
     });
 });
+
+
+
+/* UI7 */
+
+
+$(function(){
+    $("#drag").draggable();
+    $("#drop").droppable({
+        drop:function(event, ui){
+           $(this).addClass("ui-state-highlight")
+           .find("p")
+           .html("Colocado");
+        }
+    });
+});
+
+
+/* UI8 */
+
+
+$(function(){
+    $("#catalogo li").draggable();
+    $("#carrinho ul").droppable({
+        drop:function(event, ui){
+           $(this).append($("<li/>").text(ui.draggable.text()))
+           $(this).find(".mensagem").remove()
+           
+        }
+    });
+});
+
+
+/* UI9 */
+
+
+$(function(){
+    $("#progresso").progressbar({
+        value:30
+    });
+    
+});
+
+
+/* UI10 */
+
+
+$(function(){
+    $("#resizable").resizable();
+   
+    
+});
+
+
+/* UI11 */
+
+
+$(function () {
+    $("#tabs").tabs();
+
+
+});
+
+

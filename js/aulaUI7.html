@@ -1,0 +1,60 @@
+<html>
+ <title>Jquery AulaUI7</title>
+ <link rel="stylesheet" type="text/css" href="jquery-ui-1.13.2.custom/jquery-ui.css">
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.js"></script>
+ <script type="text/javascript" src="jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+ <script type="text/javascript">
+    $(function(){
+        $("#drag").draggable();
+        $("#drop").droppable({
+            drop:function(event, ui){
+               $(this).addClass("ui-state-highlight")
+               .find("p")
+               .html("Colocado");
+            }
+        });
+    });
+   
+    
+
+   
+
+       
+
+
+
+
+
+ </script>
+ </head>
+ <body>
+
+    <div id="drag">
+        <textarea name="drag" id="" cols="10" rows="5">
+            Arrasta aí jovem
+        </textarea>
+    </div>
+
+    <div id="drop">
+        <p>Coloca aqui jovem</p>
+    </div>
+
+ 
+
+    
+
+      
+          
+
+
+   
+ 
+
+
+    
+
+
+
+
+</body>
+</html>
