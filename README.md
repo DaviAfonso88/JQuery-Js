@@ -22,7 +22,7 @@
 <br>
 <br>
 
- | img src =<"https://cdn.educba.com/academy/wp-content/uploads/2019/05/what-is-jquery-1.png"> | ggggggggggggg  | hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh | hhhhhhhhhhhhhhhhhhhhhhhhhhhhh | hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh |
+ || ggggggggggggg  | hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh | hhhhhhhhhhhhhhhhhhhhhhhhhhhhh | hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh |
 | :---: | :---: | :---: | :---: | :---: |
 
 ## 🚀 Aplicações Realizadas 
