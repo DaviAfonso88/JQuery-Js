@@ -22,7 +22,7 @@
 <br>
 <br>
 
-  ### <div align="center"> Exemplos de aplicações realizadas </div>
+  ### <div align="center"> ✔️ Exemplos de aplicações realizadas  </div>
 
 <br>
 
@@ -33,26 +33,26 @@
 
 ## 🚀 Aplicações Realizadas 
 
- - [x] Setores Simples                  
- - [x] Setores Hierárquicos
- - [x] Setores de Ordem
- - [x] Setores de Conteúdo
- - [x] Setores de Atributos
- - [x] Setores de Formulários
- - [x] Manipulação de Conteúdo
- - [x] Manipulação DOM
- - [x] Manipulação CSS
- - [x] Eventos de Mouse
- - [x] Eventos de Teclado
- - [x] Eventos Avançados
- - [x] Efeitos Básicos
- - [x] Efeitos Slide
- - [x] Auto complete
- - [x] Arrastar e Soltar
- - [x] Dialog
- - [x] Barra de Progresso
- - [x] Elementos Selecionaveis 
- - [x] JqueryUI
+ - [x] `Setores Simples`               
+ - [x] `Setores Hierárquicos`
+ - [x] `Setores de Ordem`
+ - [x] `Setores de Conteúdo`
+ - [x] `Setores de Atributos`
+ - [x] `Setores de Formulários`
+ - [x] `Manipulação de Conteúdo`
+ - [x] `Manipulação DOM`
+ - [x] `Manipulação CSS`
+ - [x] `Eventos de Mouse`
+ - [x] `Eventos de Teclado`
+ - [x] `Eventos Avançados`
+ - [x] `Efeitos Básicos`
+ - [x] `Efeitos Slide`
+ - [x] `Auto complete`
+ - [x] `Arrastar e Soltar`
+ - [x] `Dialog`
+ - [x] `Barra de Progresso`
+ - [x] `Elementos Selecionaveis` 
+ - [x] `JqueryUI`
  
 
 
