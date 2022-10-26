@@ -1,6 +1,6 @@
 # JQuery-Js
 <p align="center">
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=RED&style=for-the-badge"/>
 </p>
 
 <br>
@@ -15,15 +15,21 @@
 
 
 
-## Qual o intuito do projeto?
+## 🧠 Qual o intuito do projeto?
 
->  Estudos da biblioteca Jquery
+>  Estudos de aplicações na biblioteca Jquery
 
 <br>
 <br>
 
- || ggggggggggggg  | hhhhhhhhhhhhhhhhhhhhhhhhhhhhhh | hhhhhhhhhhhhhhhhhhhhhhhhhhhhh | hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh |
+  ### <div align="center"> Exemplos de aplicações realizadas </div>
+
+<br>
+
+ |<img src="https://i.pinimg.com/originals/7e/2a/eb/7e2aeb1567e91bfc2404cecca6aceecd.gif" width=250>| <img src="https://www.jqueryscript.net/images/collective/jQuery%20slideshow%20mock.gif" width=250>  | <img src="https://rogertakemiya.com.br/wp-content/uploads/2022/07/como-selecionar-marcar-um-radio-button-com-jquery-ou-javascript.gif" width=250> | <img src="https://www.blogson.com.br/wp-content/uploads/2017/08/exemplo-jquery-tutorial.gif" width=250> | <img src="https://www.blogson.com.br/wp-content/uploads/2017/08/exemplo-jquery-inputs.gif" width=250> |
 | :---: | :---: | :---: | :---: | :---: |
+
+<br>
 
 ## 🚀 Aplicações Realizadas 
 
@@ -41,6 +47,14 @@
  - [x] Eventos Avançados
  - [x] Efeitos Básicos
  - [x] Efeitos Slide
+ - [x] Auto complete
+ - [x] Arrastar e Soltar
+ - [x] Dialog
+ - [x] Barra de Progresso
+ - [x] Elementos Selecionaveis 
+ - [x] JqueryUI
+ 
+
 
 <br>
 <br>
