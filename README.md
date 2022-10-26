@@ -19,6 +19,25 @@
 
 >  Estudos da biblioteca Jquery
 
+<br>
+<br>
+
+## 🚀 Aplicações Realizadas 
+
+ - [x] Setores Simples                  
+ - [x] Setores Hierárquicos
+ - [x] Setores de Ordem
+ - [x] Setores de Conteúdo
+ - [x] Setores de Atributos
+ - [x] Setores de Formulários
+ - [x] Manipulação de Conteúdo
+ - [x] Manipulação DOM
+ - [x] Manipulação CSS
+ - [x] Eventos de Mouse
+ - [x] Eventos de Teclado
+ - [x] Eventos Avançados
+ - [x] Efeitos Básicos
+ - [x] Efeitos Slide
 
 <br>
 <br>
