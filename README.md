@@ -63,16 +63,39 @@
 
 <div align=rigth>
 
-  <img align="rigth" alt="DaviAfonso88-jquery" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg">
-  <img align="rigth" alt="DaviAfonso88-javascript" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
-  <img align="rigth" alt="DaviAfonso88-vscode" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
+  <table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img align="rigth" alt="DaviAfonso88-jquery" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-original.svg"><br>
+        <sub>
+          <b>Jquery</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img align="rigth" alt="DaviAfonso88-javascript" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"><br>
+        <sub>
+          <b>Javascript</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img align="rigth" alt="DaviAfonso88-vscode" height="60" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"><br>
+        <sub>
+          <b>Vscode</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br>
 <br>
 
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+## 🤝 Colaborador
 
 <table>
   <tr>
